@@ -1,6 +1,8 @@
 #!/bin/bash
 
-source $HOME/.dotfiles/functions.sh
+function msg_checking { echo  "\033[1;32m=> $1 ✔\033[0m"; }
+function msg_installing { echo  "\033[1;33m==> $1 [updating] ✔\033[0m"; }
+function msg_ok { echo  "\033[1;32m==> $1 installed ✔\033[0m"; }
 
 msg ' __    __    __  __        _____     ______    ______   ______   __     __         ______     ______    '
 msg '/\ "-./  \  /\ \_\ \      /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
@@ -8,8 +10,6 @@ msg '\ \ \-./\ \ \ \____ \     \ \ \/\ \ \ \ \/\ \ \/_/\ \/ \ \  __\ \ \ \  \ \ 
 msg ' \ \_\ \ \_\ \/\_____\     \ \____-  \ \_____\   \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\  \/\_____\ '
 msg '  \/_/  \/_/  \/_____/      \/____/   \/_____/    \/_/   \/_/     \/_/   \/_____/   \/_____/   \/_____/ '
 msg '                                                                                                        '
-
-OSX=$(test "`uname`" == "VValle" && echo "x")
 
 # homebrew
 if which brew &> /dev/null; then
