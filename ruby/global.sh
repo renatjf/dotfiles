@@ -1,4 +1,4 @@
-source common/functions.sh
+source $HOME/.dotfiles/functions.sh
 
 # update gems
 if which gem &> /dev/null; then

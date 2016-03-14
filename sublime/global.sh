@@ -1,4 +1,4 @@
-source common/functions.sh
+source $HOME/.dotfiles/functions.sh
 
 # ln for Sublime
 if [ -f "/usr/local/bin/subl" ]; then

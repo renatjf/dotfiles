@@ -1,4 +1,4 @@
-source common/functions.sh
+source $HOME/.dotfiles/functions.sh
 
 # nodejs
 if which node &> /dev/null; then
@@ -6,6 +6,15 @@ if which node &> /dev/null; then
 else
     msg_install "node" "git clone git://github.com/ry/node.git"
     brew install node
+    echo "OK"
+fi
+
+# n
+if which n &> /dev/null; then
+    msg_checking "n"
+else
+    msg_install "n" "sudo npm install -g n"
+    sudo npm install -g n
     echo "OK"
 fi
 
@@ -24,6 +33,15 @@ if which gulp &> /dev/null; then
 else
     msg_install "gulp" "npm install -g gulp-cli"
     npm install -g gulp-cli
+    echo "OK"
+fi
+
+# stylus
+if which stylus &> /dev/null; then
+    msg_checking "stylus"
+else
+    msg_install "stylus" "npm install -g stylus"
+    npm install -g stylus
     echo "OK"
 fi
 
