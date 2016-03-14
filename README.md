@@ -4,22 +4,21 @@
 
 > If you're setting up a new Mac, take a look at [this Gist](https://gist.github.com/andrevvalle/6d25978770c2ca09a344) — there you can find many instructions and also the whole list of apps I'm using.
 
-## How to install?
+## How to run
 
-```sh
-$ curl -L https://raw.github.com/zenorocha/dotfiles/master/bootstrap.sh | sh
+```bash
+$ sh install
 ```
 
-This will clone this repository and symlink the appropriate files in `~/.dotfiles` to your home directory.
+## Instalation
 
-## How to update?
-
-Just go to `~/.dotfiles` and pull.
-
-```sh
-$ git pull
+```bash
+$ curl -L https://raw.github.com/andrevvalle/dotfiles/master/install | sh
+# or
+$ git clone https://github.com/andrevvalle/dotfiles.git && cd dotfiles && sh install.sh
 ```
 
 ## Credits
 
 * Dotfiles based on [@zenorocha dotfiles](https://github.com/zenorocha/old-dotfiles)
+* Dotfiles based on [@davidsonfellipe dotfiles](https://github.com/davidsonfellipe/dotfiles)
