@@ -13,7 +13,7 @@ $ sh install
 ## Instalation
 
 ```bash
-$ curl -L https://raw.github.com/andrevvalle/dotfiles/master/bootstrap.sh | sh
+$ curl -L https://raw.github.com/andrevvalle/dotfiles/master/install.sh | sh
 ```
 
 ## Credits
