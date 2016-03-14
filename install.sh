@@ -3,6 +3,7 @@
 function msg_checking { echo  "\033[1;32m=> $1 ✔\033[0m"; }
 function msg_installing { echo  "\033[1;33m==> $1 [updating] ✔\033[0m"; }
 function msg_ok { echo  "\033[1;32m==> $1 installed ✔\033[0m"; }
+function msg { echo  "\033[0;32m$1\033[0m"; }
 
 msg ' __    __    __  __        _____     ______    ______   ______   __     __         ______     ______    '
 msg '/\ "-./  \  /\ \_\ \      /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
@@ -28,9 +29,6 @@ else
     brew install git
     msg_ok "OK"
 fi
-
-# softwares
-sh softwares/install.sh
 
 # -- Dotfiles
 if [[ -d "$HOME/.dotfiles" ]]; then

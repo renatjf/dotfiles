@@ -41,3 +41,8 @@ else
     brew install mysql
     msg_ok "OK"
 fi
+
+# softwares
+msg_install "softwares" "install softwares"
+sh $HOME/.dotfiles/softwares/install.sh
+msg_ok "OK"
