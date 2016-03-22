@@ -15,6 +15,7 @@ brew cask install virtualbox
 
 # other
 brew cask install alfred
+brew cask install spectacle
 brew cask install dropbox
 brew cask install mou
 brew cask install skype
