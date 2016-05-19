@@ -1,9 +1,6 @@
 #!/bin/bash
 
-function msg_checking { echo  "\033[1;32m=> $1 ✔\033[0m"; }
-function msg_installing { echo  "\033[1;33m==> $1 [updating] ✔\033[0m"; }
-function msg_ok { echo  "\033[1;32m==> $1 installed ✔\033[0m"; }
-function msg { echo  "\033[0;32m$1\033[0m"; }
+source $HOME/.dotfiles/common/functions.sh
 
 msg ' __    __    __  __        _____     ______    ______   ______   __     __         ______     ______    '
 msg '/\ "-./  \  /\ \_\ \      /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
@@ -39,6 +36,14 @@ else
 fi
 
 # -- Installers ----------------------------------------------------------------
-# Find the installers and run them iteratively
-cd "$HOME/.dotfiles/$(dirname $)"/..
-find . -name global.sh | while read installer ; do sh -c "${installer}" ; done
+sh brew/global.sh
+
+sh node/global.sh
+
+sh git/global.sh
+
+sh ruby/global.sh
+
+sh sublime/global.sh
+
+sh zsh/global.sh

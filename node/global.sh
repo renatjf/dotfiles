@@ -1,4 +1,4 @@
-source $HOME/.dotfiles/functions.sh
+source $HOME/.dotfiles/common/functions.sh
 
 # nodejs
 if which node &> /dev/null; then

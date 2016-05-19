@@ -1,4 +1,4 @@
-source $HOME/.dotfiles/functions.sh
+source $HOME/.dotfiles/common/functions.sh
 
 # watchman
 if which watchman &> /dev/null; then
