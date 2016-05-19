@@ -36,14 +36,14 @@ else
 fi
 
 # -- Installers ----------------------------------------------------------------
-sh brew/global.sh
+sh $HOME/.dotfiles/brew/global.sh
 
-sh node/global.sh
+sh $HOME/.dotfiles/node/global.sh
 
-sh git/global.sh
+sh $HOME/.dotfiles/git/global.sh
 
-sh ruby/global.sh
+sh $HOME/.dotfiles/ruby/global.sh
 
-sh sublime/global.sh
+sh $HOME/.dotfiles/sublime/global.sh
 
-sh zsh/global.sh
+sh $HOME/.dotfiles/zsh/global.sh
