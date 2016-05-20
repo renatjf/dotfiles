@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source common/functions.sh
+source https://raw.githubusercontent.com/andrevvalle/dotfiles/master/common/functions.sh
 
 msg ' __    __    __  __        _____     ______    ______   ______   __     __         ______     ______    '
 msg '/\ "-./  \  /\ \_\ \      /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
