@@ -83,6 +83,8 @@ alias cc="clear"
 alias gpo="git push origin"
 alias gcp="git cherry-pick"
 
+alias pyserver="python -m SimpleHTTPServer"
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
