@@ -1,4 +1,4 @@
-source https://raw.githubusercontent.com/andrevvalle/dotfiles/master/common/functions.sh
+source $HOME/.dotfiles/common/functions.sh
 
 # -- Config
 if [[ -L "$HOME/.gitconfig" ]]; then

@@ -1,4 +1,4 @@
-source https://raw.githubusercontent.com/andrevvalle/dotfiles/master/common/functions.sh
+source $HOME/.dotfiles/common/functions.sh
 
 # nodejs
 if which node &> /dev/null; then
