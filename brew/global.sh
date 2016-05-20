@@ -1,4 +1,4 @@
-source common/functions.sh
+source https://raw.githubusercontent.com/andrevvalle/dotfiles/master/common/functions.sh
 
 # homebrew
 if which brew &> /dev/null; then

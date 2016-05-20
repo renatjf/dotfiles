@@ -1,3 +1,5 @@
+source https://raw.githubusercontent.com/andrevvalle/dotfiles/master/common/functions.sh
+
 msg_install “Installing Brew Cask”
 
 # homebrew-cask
