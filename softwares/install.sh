@@ -1,3 +1,5 @@
+msg_install “Installing Brew Cask”
+
 # homebrew-cask
 brew tap phinze/homebrew-cask
 brew install brew-cask

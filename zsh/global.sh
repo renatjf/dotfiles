@@ -1,4 +1,4 @@
-source $HOME/.dotfiles/common/functions.sh
+source common/functions.sh
 
 # -- ZSH
 if which zsh &> /dev/null; then

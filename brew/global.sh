@@ -1,4 +1,13 @@
-source $HOME/.dotfiles/common/functions.sh
+source common/functions.sh
+
+# homebrew
+if which brew &> /dev/null; then
+    msg_checking "homebrew"
+else
+    msg_install "Homebrew" "ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ok "OK"
+fi
 
 # watchman
 if which watchman &> /dev/null; then
@@ -42,7 +51,3 @@ else
     msg_ok "OK"
 fi
 
-# softwares
-msg_install "softwares" "install softwares"
-sh $HOME/.dotfiles/softwares/install.sh
-msg_ok "OK"
