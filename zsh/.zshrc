@@ -83,6 +83,9 @@ alias cc="clear"
 alias gpo="git push origin"
 alias gcp="git cherry-pick"
 
+alias o_cask="open /opt/homebrew-cask/Caskroom"
+alias caskroom="/opt/homebrew-cask/Caskroom"
+
 alias pyserver="python -m SimpleHTTPServer"
 
 ### Added by the Heroku Toolbelt
