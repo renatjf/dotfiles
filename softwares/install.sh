@@ -9,7 +9,7 @@ brew install brew-cask
 brew cask install google-chrome
 
 # development
-brew cask install sublime-text
+brew cask install sublime
 brew cask install iterm2
 brew cask install virtualbox
 
@@ -21,3 +21,4 @@ brew cask install mou
 brew cask install skyp
 brew cask install spotify
 brew cask install slack
+brew cask install franz
