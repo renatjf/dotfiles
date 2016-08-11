@@ -22,3 +22,6 @@ brew cask install skyp
 brew cask install spotify
 brew cask install slack
 brew cask install franz
+brew cask install appcleaner
+brew cask install caffeine
+brew cask install nylas-n1
