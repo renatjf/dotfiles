@@ -13,10 +13,5 @@ $ sh install
 ## Instalation
 
 ```bash
-$ curl -L https://raw.github.com/andrevvalle/dotfiles/master/install.sh | sh
+$ curl -L https://raw.github.com/renatjf/dotfiles/master/install.sh | sh
 ```
-
-## Credits
-
-* Dotfiles based on [@zenorocha dotfiles](https://github.com/zenorocha/old-dotfiles)
-* Dotfiles based on [@davidsonfellipe dotfiles](https://github.com/davidsonfellipe/dotfiles)
