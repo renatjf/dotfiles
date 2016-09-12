@@ -19,8 +19,8 @@ msg '                                                                           
 if [[ -d "$HOME/.dotfiles" ]]; then
     msg_checking "dotfiles"
 else
-    msg_install "dotfiles" "git clone https://github.com/andrevvalle/dotfiles.git $HOME/.dotfiles"
-    git clone https://github.com/andrevvalle/dotfiles.git $HOME/.dotfiles
+    msg_install "dotfiles" "git clone https://github.com/renatjf/dotfiles.git $HOME/.dotfiles"
+    git clone https://github.com/renatjf/dotfiles.git $HOME/.dotfiles
 fi
 
 # -- Installers ----------------------------------------------------------------
